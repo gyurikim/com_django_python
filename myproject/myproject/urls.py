@@ -24,4 +24,5 @@ urlpatterns = [
     path("chart/", myapp.views.chart, name="chart"),
     path("Jchart/", myapp.views.Jchart, name="Jchart"),
     path("data/", myapp.views.data, name="data"),
+    path("loginform/", myapp.views.loginform, name="loginform"),
 ]
